@@ -10,10 +10,19 @@ public class HomePage {
         this.driver = driver;
     }
     private final By LogeOutButton = By.xpath("(//span[contains(@data-pc-section,'icon')])[2]");
+    private final By ProfilePage = By.xpath("//a[@href='/main/profile']");
+
     @Step("LogeOut")
     public void NavigateToLogOutPage() {
         driver.element().click(LogeOutButton);
 
+
+    }
+    @Step("go to Profile Page")
+    public ProfilePage NavigateToProfilePage() {
+        driver.element()
+                .click(ProfilePage);
+        return  new ProfilePage(driver);
 
     }
 }

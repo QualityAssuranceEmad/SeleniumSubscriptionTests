@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SubscriptionTestSuite" parallel="false">
+    <test name="RegistrationTestsEmailCheck">
+
+        <classes>
+            <class name="tests.register.RegisterPhoneValidationTests"/>
+        </classes>
+    </test>
+    <test name="RegistrationTestsPhoneCheck">
+        <classes>
+            <class name="tests.register.RegisterEmailValidationTests"/>
+        </classes>
+    </test>
+    <test name="RegistrationTests">
+        <classes>
+            <class name="tests.register.RegisterUserTests"/>
+        </classes>
+    </test>
+</suite>

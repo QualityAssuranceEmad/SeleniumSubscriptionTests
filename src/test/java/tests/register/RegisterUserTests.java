@@ -24,7 +24,7 @@ public class RegisterUserTests {
             "When I click on the 'Sign Up' button and fill all the data correct " +
             "Then I verify that the user is  Register  successfully")
     @Test(priority = 1)
-    public void goToSignUp() {
+    public void goToSignUp() throws InterruptedException {
         new LoginPage(driver).NavigateToSignupPage().enterAccountInformation(testData.getTestData("FirstName"),testData.getTestData("LastName"),
                 testData.getTestData("Email"),testData.getTestData("Phone"),
                 testData.getTestData("Pass"),testData.getTestData("Confirm_pass")).
