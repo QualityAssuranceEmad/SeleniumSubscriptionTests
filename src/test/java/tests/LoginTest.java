@@ -13,7 +13,7 @@ public class LoginTest {
     private SHAFT.GUI.WebDriver driver;
     private SHAFT.TestData.JSON testData;
     @Severity(SeverityLevel.CRITICAL)
-    @TmsLink("TC-002")
+    @TmsLink("TC-005")
     @Step("Navigate to Login Page and login")
     @Link(name = "Subscription Page", url = "http://dev.advintic.com:9191/main")
     @Epic("Login")

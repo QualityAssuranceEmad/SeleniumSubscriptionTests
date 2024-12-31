@@ -1,0 +1,24 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                       Test Method: 'tests.Landing.LandingAsAGustTest.LandingPageFullTest'                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Click "Advintic Logo" @31-12-2024 10:45:02.0889 AM
+[ReportManager] Get Text from "Referral application", text is "Referral application". @31-12-2024 10:45:09.0559 AM
+[ReportManager] Get Text from "WEB.V", text is "WEB.V". @31-12-2024 10:45:09.0600 AM
+[ReportManager] Get Text from "ITAC", text is "ITAC". @31-12-2024 10:45:09.0638 AM
+[ReportManager] Get Text from "RIS.V", text is "". @31-12-2024 10:45:09.0682 AM
+[ReportManager] Get Text from "CARE.V", text is "". @31-12-2024 10:45:09.0729 AM
+[ReportManager] Click "By.xpath: //*[starts-with(@id, 'pn_id_') and contains(@id, '_header_action')]/div/span[text()='ITAC']" @31-12-2024 10:45:10.0074 AM
+[ReportManager] Click "Subscribe" @31-12-2024 10:45:11.0076 AM
+[ReportManager] Verify that the element located by "By.xpath: //div[@class='header-tab ng-star-inserted']" text is equal to "Login". @31-12-2024 10:45:15.0130 AM
+[ReportManager] Expected "Login", and actual "Login" @31-12-2024 10:45:15.0480 AM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_10-45-17-477_31122024' @31-12-2024 10:45:17.0477 AM
+[ReportManager] Expected "Login", and actual "Login" @31-12-2024 10:45:17.0477 AM
+[ReportManager] Verification passed @31-12-2024 10:45:17.0477 AM
+[ReportManager] Verify that the element located by "By.xpath: //div[@class='header-tab-clicked ng-star-inserted'][contains(.,'Sign up')]" text is equal to "Sign up". @31-12-2024 10:45:17.0493 AM
+[ReportManager] Expected "Sign up", and actual "Sign up" @31-12-2024 10:45:17.0712 AM
+[ReportManager] Successfully created attachment 'Screenshot - Verify_10-45-18-466_31122024' @31-12-2024 10:45:18.0495 AM
+[ReportManager] Expected "Sign up", and actual "Sign up" @31-12-2024 10:45:18.0497 AM
+[ReportManager] Verification passed @31-12-2024 10:45:18.0497 AM
